@@ -43,14 +43,7 @@ Keep the notebooks and helper modules together in the repository root:
 
 ## Environment
 
-The specified notebook environment uses **Python 3.11.5**. Install the packages in from the requirements.txt in that environment.
-
-The `.py` files are imported helpers, not standalone analysis entry points:
-
-| Module | Purpose |
-| --- | --- |
-| `trajectory_clustering_utils.py` | Availability filtering, interval preparation, normalization, shuffling, and clustering utilities. |
-| `cohort_data_utils.py` | Cohort harmonization, long-format conversion, interval averaging, and statistical helpers. Formerly `operators.py`. |
+The specified notebook environment uses **Python 3.11.5**. Install the packages from the requirements.txt in that environment.
 
 ## Data inputs
 
@@ -66,7 +59,7 @@ Place source workbooks in `files/inputs/` with the names expected by the noteboo
 | `variables_across_cohorts.xlsx` | Variable availability and type definitions for risk-factor analyses. |
 
 
-**Data availability:** [Data is not publiclz available, as it contains personal participants' information] 
+**Data availability:** [Data is not publicly available] 
 
 ## Recommended execution order
 
